@@ -1,0 +1,71 @@
+body{
+    font-family: 'Archivo', sans-serif;
+    
+}
+html{
+    font-size: 20px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    // padding: 0px 1.5rem;
+
+}
+.flex{
+    display: flex;
+   align-items: center;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+.flex-40{
+    flex: 0 1 30%;
+}
+.flex-20{
+    flex: 0 1 21%;
+    a{
+
+        color: white;
+        text-decoration: none;
+        font-size: .8rem;
+        padding: 20px 0px;
+    }
+    i{
+        margin-right:10px;
+    }
+
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    h5{
+        color: white;
+        font-weight: 800;
+    }
+}
